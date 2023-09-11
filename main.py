@@ -20,6 +20,7 @@ def main():
     # Объединяем вакансии из обоих источников
     vacancies_json = hh_vacancies_json + sj_vacancies_json
 
+
     connector = Connector(keyword=keyword, vacancies_json=vacancies_json)
 
     vacancies = connector.select()

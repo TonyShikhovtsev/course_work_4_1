@@ -16,7 +16,6 @@ class Engine(ABC):
         pass
 
 
-
 class HeadHunter(Engine):
     """
     Класс для работы с api HeadHunter

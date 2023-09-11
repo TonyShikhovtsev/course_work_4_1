@@ -53,6 +53,7 @@ def sort_vacancies_by_min_salary(vacancies):
     return sorted(vacancies, key=lambda vacancy: (vacancy.salary_from is None, vacancy.salary_from))
 
 
+
 def get_top_n_highest_paid_vacancies(vacancies, n):
     """
     Функция вывода необходимого количества вакансий по высокой зарплате
